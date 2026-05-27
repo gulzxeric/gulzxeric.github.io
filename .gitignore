@@ -6,6 +6,19 @@ public/
 .deploy*/
 db.json
 
+# Generated static files (deployed by GitHub Actions)
+archives/
+assets/
+css/
+fonts/
+images/
+js/
+masonry/
+webfonts/
+2026/
+index.html
+404.html
+
 # IDE
 .vscode/
 .idea/
