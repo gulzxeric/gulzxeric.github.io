@@ -1,0 +1,140 @@
+# Redefine Theme Configuration
+# Docs: https://redefine.ohevan.com/docs/
+
+# ============================================================
+# 基础配置
+# ============================================================
+
+# 网站图标
+favicon: /images/favicon.svg
+
+# 页脚信息
+footer:
+  since: 2024
+  custom_text: Powered by Hexo & Redefine
+  icp:
+    enable: false
+    number:
+    link:
+
+# ============================================================
+# 导航栏配置
+# ============================================================
+
+navbar:
+  # 导航栏左侧 Logo
+  logo:
+    image: /images/logo.svg
+    enabled: true
+  
+  # 导航链接
+  menu:
+    首页: /
+    归档: /archives
+    分类: /categories
+    标签: /tags
+    关于: /about
+
+# ============================================================
+# 首页配置
+# ============================================================
+
+home:
+  # 首页文章数量
+  article_count: 10
+  
+  # 文章摘要
+  auto_excerpt:
+    enable: true
+    length: 150
+
+# ============================================================
+# 文章页面配置
+# ============================================================
+
+post:
+  # 文章元信息
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+    updated:
+      enable: true
+    categories:
+      enable: true
+    tags:
+      enable: true
+  
+  # 目录
+  toc:
+    enable: true
+    number: true
+    depth: 3
+  
+  # 版权信息
+  copyright:
+    enable: true
+    content:
+      author: 文章作者
+      link: 文章链接
+      license: 'CC BY-NC-SA 4.0'
+      license_link: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+
+# ============================================================
+# 侧边栏配置
+# ============================================================
+
+sidebar:
+  # 侧边栏位置
+  position: right
+  
+  # 个人信息卡片
+  personal_info:
+    avatar: /images/avatar.png
+    name: gulzxeric
+    description: 个人博客
+  
+  # 文章目录
+  toc:
+    enable: true
+
+# ============================================================
+# 搜索配置
+# ============================================================
+
+search:
+  enable: true
+  type: local
+
+# ============================================================
+# 代码块配置
+# ============================================================
+
+code_block:
+  # 代码高亮主题
+  highlight_theme: default
+  
+  # 代码复制按钮
+  copy_button:
+    enable: true
+
+# ============================================================
+# 暗色模式
+# ============================================================
+
+dark_mode:
+  enable: true
+  default: auto
+
+# ============================================================
+# 字体配置
+# ============================================================
+
+font:
+  # 全局字体
+  global: 
+  # 标题字体
+  title: 
+  # 代码字体
+  code: 
