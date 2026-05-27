@@ -1,140 +1,297 @@
-# Redefine Theme Configuration
-# Docs: https://redefine.ohevan.com/docs/
-
 # ============================================================
-# 基础配置
+# Redefine Theme Configuration v2
 # ============================================================
 
-# 网站图标
-favicon: /images/favicon.svg
+info:
+  title: "Gulzxeric's Blog"
+  subtitle: "Welcome to my blog"
+  author: "Gulzxeric"
+  url: https://gulzxeric.github.io
 
-# 页脚信息
+defaults:
+  favicon: /images/redefine-favicon.svg
+  logo:
+  avatar: /images/redefine-avatar.svg
+
+colors:
+  primary: "#A31F34"
+  secondary:
+  default_mode: light
+
+global:
+  fonts:
+    chinese:
+      enable: false
+      family:
+      url:
+    english:
+      enable: false
+      family:
+      url:
+    title:
+      enable: false
+      family:
+      url:
+  content_max_width: 1000px
+  sidebar_width: 210px
+  hover:
+    shadow: true
+    scale: false
+  scroll_progress:
+    bar: false
+    percentage: true
+  website_counter:
+    url: https://cn.vercount.one/js
+    enable: true
+    site_pv: true
+    site_uv: true
+    post_pv: true
+  single_page: true
+  preloader:
+    enable: true
+    custom_message:
+  side_tools:
+    gear_rotation: true
+    auto_expand: false
+  open_graph:
+    enable: true
+    image: /images/redefine-og.webp
+    description: Hexo Theme Redefine, Redefine Your Hexo Journey.
+  google_analytics:
+    enable: false
+    id:
+
+fontawesome:
+  thin: false
+  light: false
+  duotone: false
+  sharp_solid: false
+
+home_banner:
+  enable: true
+  style: fixed
+  image:
+    light: /images/wallhaven-wqery6-light.webp
+    dark: /images/wallhaven-wqery6-dark.webp
+  title: "Eric's Blog"
+  subtitle:
+    text: []
+    hitokoto:
+      enable: false
+      show_author: false
+      api: https://v1.hitokoto.cn
+    typing_speed: 100
+    backing_speed: 80
+    starting_delay: 500
+    backing_delay: 1500
+    loop: true
+    smart_backspace: true
+  text_color:
+    light: "#fff"
+    dark: "#d1d1b6"
+  text_style:
+    title_size: 2.8rem
+    subtitle_size: 1.5rem
+    line_height: 1.2
+  custom_font:
+    enable: false
+    family:
+    url:
+  social_links:
+    enable: false
+    style: default
+    links:
+    qrs:
+
+navbar:
+  auto_hide: false
+  color:
+    left: "#f78736"
+    right: "#367df7"
+    transparency: 35
+  width:
+    home: 1200px
+    pages: 1000px
+  links:
+    首页:
+      path: /
+      icon: fa-regular fa-house
+    归档:
+      path: /archives
+      icon: fa-regular fa-archive
+    分类:
+      path: /categories
+      icon: fa-regular fa-folder
+    标签:
+      path: /tags
+      icon: fa-regular fa-tags
+    关于:
+      path: /about
+      icon: fa-regular fa-user
+  search:
+    enable: true
+    preload: true
+
+home:
+  sidebar:
+    enable: true
+    position: right
+    first_item: menu
+    announcement:
+    show_on_mobile: true
+    links:
+  article_date_format: auto
+  excerpt_length: 200
+  categories:
+    enable: true
+    limit: 3
+  tags:
+    enable: true
+    limit: 3
+
+articles:
+  style:
+    font_size: 16px
+    line_height: 1.5
+    image_border_radius: 14px
+    image_alignment: center
+    image_caption: false
+    link_icon: true
+    delete_mask: false
+    title_alignment: left
+    headings_top_spacing:
+      h1: 3.2rem
+      h2: 2.4rem
+      h3: 1.9rem
+      h4: 1.6rem
+      h5: 1.4rem
+      h6: 1.3rem
+  word_count:
+    enable: true
+    count: true
+    min2read: true
+  author_label:
+    enable: true
+    auto: false
+    list: []
+  code_block:
+    copy: true
+    style: mac
+    highlight_theme:
+      light: github
+      dark: vs2015
+    font:
+      enable: false
+      family:
+      url:
+  toc:
+    enable: true
+    max_depth: 3
+    number: false
+    expand: true
+    init_open: true
+  copyright:
+    enable: true
+    default: cc_by_nc_sa
+  lazyload: true
+  pangu_js: false
+  recommendation:
+    enable: false
+    title: 推荐阅读
+    limit: 3
+    mobile_limit: 2
+    placeholder: /images/wallhaven-wqery6-light.webp
+    skip_dirs: []
+
+comment:
+  enable: false
+  system: waline
+  config:
+    waline:
+      serverUrl:
+      lang: zh-CN
+      emoji: []
+      recaptchaV3Key:
+      turnstileKey:
+      reaction: false
+    gitalk:
+      clientID:
+      clientSecret:
+      repo:
+      owner:
+      proxy:
+    twikoo:
+      version: 1.6.10
+      server_url:
+      region:
+    giscus:
+      repo:
+      repo_id:
+      category:
+      category_id:
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: en
+      input_position: bottom
+      loading: lazy
+    artalk:
+      server:
+      site:
+    utterances:
+      repo:
+      issue_term: pathname
+      issue_number:
+      label:
+      theme_light: github-light
+      theme_dark: github-dark
+
 footer:
-  since: 2024
-  custom_text: Powered by Hexo & Redefine
+  runtime: true
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  start: 2026/05/27 10:00:00
+  statistics: true
+  customize: "Powered by Hexo & Redefine"
   icp:
     enable: false
     number:
-    link:
+    url:
 
-# ============================================================
-# 导航栏配置
-# ============================================================
-
-navbar:
-  # 导航栏左侧 Logo
-  logo:
-    image: /images/logo.svg
-    enabled: true
-  
-  # 导航链接
-  menu:
-    首页: /
-    归档: /archives
-    分类: /categories
-    标签: /tags
-    关于: /about
-
-# ============================================================
-# 首页配置
-# ============================================================
-
-home:
-  # 首页文章数量
-  article_count: 10
-  
-  # 文章摘要
-  auto_excerpt:
-    enable: true
-    length: 150
-
-# ============================================================
-# 文章页面配置
-# ============================================================
-
-post:
-  # 文章元信息
-  meta:
-    author:
-      enable: true
-    date:
-      enable: true
-    updated:
-      enable: true
-    categories:
-      enable: true
-    tags:
-      enable: true
-  
-  # 目录
-  toc:
-    enable: true
-    number: true
-    depth: 3
-  
-  # 版权信息
-  copyright:
-    enable: true
-    content:
-      author: 文章作者
-      link: 文章链接
-      license: 'CC BY-NC-SA 4.0'
-      license_link: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
-
-# ============================================================
-# 侧边栏配置
-# ============================================================
-
-sidebar:
-  # 侧边栏位置
-  position: right
-  
-  # 个人信息卡片
-  personal_info:
-    avatar: /images/avatar.png
-    name: gulzxeric
-    description: 个人博客
-  
-  # 文章目录
-  toc:
-    enable: true
-
-# ============================================================
-# 搜索配置
-# ============================================================
-
-search:
+inject:
   enable: true
-  type: local
+  head:
+    - |
+      <style>
+      .cat-icon{display:inline-block;animation:catShake 1.5s ease-in-out infinite}@keyframes catShake{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-20deg)}75%{transform:rotate(20deg)}}.cat-loader{position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:99999;transition:opacity 0.5s}.cat-loader.hide{opacity:0;pointer-events:none}.loading-cat{font-size:60px;animation:catSpin 1.5s linear infinite}.cat-loader-text{margin-top:20px;font-size:16px;color:#666}@keyframes catSpin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.footer-runtime,.footer-statistics{font-size:13px!important;line-height:1.6!important}
+      </style>
+  footer:
 
-# ============================================================
-# 代码块配置
-# ============================================================
+plugins:
+  feed:
+    enable: false
+  aplayer:
+    enable: false
+    type: fixed
+    audios:
+  mermaid:
+    enable: false
+    version: "11.4.1"
+    theme:
+      light: "default"
+      dark: "dark"
 
-code_block:
-  # 代码高亮主题
-  highlight_theme: default
-  
-  # 代码复制按钮
-  copy_button:
-    enable: true
+page_templates:
+  friends_column: 2
+  tags_style: blur
+  masonry:
+    batch_size: 12
+    initial_batch_size: 24
 
-# ============================================================
-# 暗色模式
-# ============================================================
+cdn:
+  enable: false
+  provider: npmmirror
+  custom_url:
 
-dark_mode:
-  enable: true
-  default: auto
-
-# ============================================================
-# 字体配置
-# ============================================================
-
-font:
-  # 全局字体
-  global: 
-  # 标题字体
-  title: 
-  # 代码字体
-  code: 
+developer:
+  enable: false
