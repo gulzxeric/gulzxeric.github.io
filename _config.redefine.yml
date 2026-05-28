@@ -263,7 +263,7 @@ inject:
   head:
     - |
       <style>
-      .cat-icon{display:inline-block;animation:catShake 1.5s ease-in-out infinite}@keyframes catShake{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-20deg)}75%{transform:rotate(20deg)}}.cat-loader{position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:99999;transition:opacity 0.5s}.cat-loader.hide{opacity:0;pointer-events:none}.loading-cat{font-size:60px;animation:catSpin 1.5s linear infinite}.cat-loader-text{margin-top:20px;font-size:16px;color:#666}@keyframes catSpin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.footer-runtime,.footer-statistics{font-size:13px!important;line-height:1.6!important}
+      .footer-runtime,.footer-statistics{font-size:13px!important;line-height:1.6!important}
       </style>
   footer:
 
