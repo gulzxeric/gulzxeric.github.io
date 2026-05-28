@@ -191,7 +191,7 @@ articles:
     expand: true
     init_open: true
   copyright:
-    enable: true
+    enable: false
     default: cc_by_nc_sa
   lazyload: true
   pangu_js: false
