@@ -68,9 +68,9 @@ hexo.extend.filter.register('after_render:html', function (html) {
     '            document.documentElement.style.setProperty(\'--preloader-text-color\', \'#000\');\n' +
     '        }\n' +
     '\n' +
-    '        window.addEventListener(\'load\', function () {\n' +
-    '            setTimeout(hidePreloader, 2000);\n' +
-    '        });\n' +
+'        window.addEventListener(\'load\', function () {\n' +
+'            hidePreloader();\n' +
+'        });\n' +
     '\n' +
     '        function hidePreloader() {\n' +
     '            var preloader = document.querySelector(\'.preloader\');\n' +
