@@ -9,9 +9,9 @@ info:
   url: https://gulzxeric.github.io
 
 defaults:
-  favicon: /images/redefine-favicon.svg
+  favicon: /assets/cat-favicon.svg
   logo:
-  avatar: /images/redefine-avatar.svg
+  avatar: /assets/cat-avatar.svg
 
 colors:
   primary: "#A31F34"
