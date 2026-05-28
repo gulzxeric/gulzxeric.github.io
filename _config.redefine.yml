@@ -135,7 +135,7 @@ navbar:
 home:
   sidebar:
     enable: true
-    position: right
+    position: left
     first_item: menu
     announcement:
     show_on_mobile: true
