@@ -285,6 +285,10 @@ links:
         link: https://muelsyse.hk/
         description: muelsyse
         avatar: /friends/assets/muelsyse.png
+      - name: lyl
+        link: https://ly1tnt.github.io/
+        description: lyl
+        avatar: /friends/assets/lyl.png
 
 developer:
   enable: false
