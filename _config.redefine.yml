@@ -204,36 +204,19 @@ articles:
     skip_dirs: []
 
 comment:
-  enable: false
-  system: waline
+  enable: true
+  system: giscus
   config:
-    waline:
-      serverUrl:
-      lang: zh-CN
-      emoji: []
-      recaptchaV3Key:
-      turnstileKey:
-      reaction: false
-    gitalk:
-      clientID:
-      clientSecret:
-      repo:
-      owner:
-      proxy:
-    twikoo:
-      version: 1.6.10
-      server_url:
-      region:
     giscus:
-      repo:
-      repo_id:
-      category:
-      category_id:
+      repo: gulzxeric/gulzxeric.github.io
+      repo_id: R_kgDOSo2y2w
+      category: Announcements
+      category_id: DIC_kwDOSo2y284C9_ol
       mapping: pathname
       strict: 0
       reactions_enabled: 1
       emit_metadata: 0
-      lang: en
+      lang: zh-CN
       input_position: bottom
       loading: lazy
     artalk:
