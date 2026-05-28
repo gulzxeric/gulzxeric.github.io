@@ -284,7 +284,7 @@ links:
       - name: muelsyse
         link: https://muelsyse.hk/
         description: muelsyse
-        avatar: /assets/muelsyse.png
+        avatar: /friends/assets/muelsyse.png
 
 developer:
   enable: false
