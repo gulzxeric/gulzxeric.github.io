@@ -113,9 +113,11 @@ navbar:
     home: 1200px
     pages: 1000px
   links:
-    首页:
-      path: /
-      icon: fa-regular fa-house
+    Home:
+      path: none
+    友链:
+      path: /friends
+      icon: fa-regular fa-user-group
     归档:
       path: /archives
       icon: fa-regular fa-archive
@@ -275,6 +277,14 @@ cdn:
   enable: false
   provider: npmmirror
   custom_url:
+links:
+  - links_category: 我的朋友们
+    has_thumbnail: false
+    list:
+      - name: 示例友链
+        link: https://example.com
+        description: 描述文字
+        avatar:
 
 developer:
   enable: false
