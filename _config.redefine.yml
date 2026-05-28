@@ -281,10 +281,10 @@ links:
   - links_category: 我的朋友们
     has_thumbnail: false
     list:
-      - name: 示例友链
-        link: https://example.com
-        description: 描述文字
-        avatar:
+      - name: muelsyse
+        link: https://muelsyse.hk/
+        description: muelsyse
+        avatar: /assets/muelsyse.png
 
 developer:
   enable: false
