@@ -8,7 +8,7 @@ db.json
 
 # Generated static files (deployed by GitHub Actions)
 archives/
-assets/
+/assets/
 css/
 fonts/
 images/
