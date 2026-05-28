@@ -69,7 +69,7 @@ hexo.extend.filter.register('after_render:html', function (html) {
     '        }\n' +
     '\n' +
 '        window.addEventListener(\'load\', function () {\n' +
-'            hidePreloader();\n' +
+'            setTimeout(hidePreloader, 700);\n' +
 '        });\n' +
     '\n' +
     '        function hidePreloader() {\n' +
