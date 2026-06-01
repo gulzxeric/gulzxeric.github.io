@@ -85,6 +85,16 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: redefine
 
+# hexo-blog-encrypt
+encrypt:
+  abstract: 此文章已加密，請輸入密碼
+  message: 需要密碼才能繼續閱讀
+  theme: default
+  decryptButton:
+    show: true
+    text: 解密
+  autoSave: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
