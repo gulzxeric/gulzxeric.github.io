@@ -41,7 +41,7 @@ global:
     bar: false
     percentage: true
   website_counter:
-    url: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+    url: https://cn.vercount.one/js
     enable: true
     site_pv: true
     site_uv: true
