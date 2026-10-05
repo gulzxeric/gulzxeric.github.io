@@ -1,0 +1,2 @@
+﻿source,event_id,reason,raw_json
+02-simulated-store.csv:2,SIM003,去除首尾空格后完全重复，已跳过,"{""event_id"": ""SIM003"", ""date"": ""2026-09-29"", ""sku"": ""模拟商品甲"", ""event_type"": ""sale"", ""amount"": ""150.00""}"

@@ -1,0 +1,5 @@
+﻿source,event_id,reason,raw_json
+01-simulated-store.csv:6,SIM005,同一流水编号内容冲突或损坏，全部隔离,"{""event_id"": ""SIM005"", ""date"": ""2026-09-29"", ""sku"": ""模拟商品甲"", ""event_type"": ""sale"", ""amount"": ""90.00""}"
+02-simulated-store.csv:3,SIM005,同一流水编号内容冲突或损坏，全部隔离,"{""event_id"": ""SIM005"", ""date"": ""2026-09-29"", ""sku"": ""模拟商品甲"", ""event_type"": ""sale"", ""amount"": ""99.00""}"
+02-simulated-store.csv:6,SIM008,day is out of range for month,"{""event_id"": ""SIM008"", ""date"": ""2026-09-31"", ""sku"": ""模拟商品甲"", ""event_type"": ""sale"", ""amount"": ""10.00""}"
+02-simulated-store.csv:7,SIM009,金额须为非负十进制，最多 12 位整数和两位小数,"{""event_id"": ""SIM009"", ""date"": ""2026-09-29"", ""sku"": ""模拟商品乙"", ""event_type"": ""sale"", ""amount"": ""not-a-number""}"

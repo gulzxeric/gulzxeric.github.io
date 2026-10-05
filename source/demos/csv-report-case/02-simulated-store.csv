@@ -1,0 +1,7 @@
+event_id,date,sku,event_type,amount
+SIM003,2026-09-29,模拟商品甲,sale,150.00
+SIM005,2026-09-29,模拟商品甲,sale,99.00
+SIM006,2026-09-29,模拟商品乙,sale,200.00
+SIM007,2026-09-29,模拟商品甲,refund,30.00
+SIM008,2026-09-31,模拟商品甲,sale,10.00
+SIM009,2026-09-29,模拟商品乙,sale,not-a-number

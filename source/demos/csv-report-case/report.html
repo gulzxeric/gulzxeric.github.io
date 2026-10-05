@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>固定 CSV 日报 · 待复核</title>
+<style>body{font:16px system-ui;margin:40px;max-width:1000px}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:8px}.notice{background:#fff2cd;padding:16px}</style>
+<h1>模拟数据_待复核 · 固定日报</h1><p class="notice">金额单位：人民币元。存在 4 行异常，本页为已通过校验流水的小计，必须复核异常。净销售额不代表利润或财税结论。退款未核验对应销售。</p>
+<p>原始 11 行 = 有效 6 条 + 重复 1 行 + 异常 4 行。</p>
+<p>销售 550.00；退款 50.00；净销售 500.00。状态：REVIEW_REQUIRED。</p>
+<table><tr><th>标记</th><th>日期</th><th>商品</th><th>销售</th><th>退款</th><th>净销售</th><th>流水数</th></tr><tr><td>模拟数据_待复核</td><td>2026-09-28</td><td>模拟商品乙</td><td>80.00</td><td>0.00</td><td>80.00</td><td>1</td></tr><tr><td>模拟数据_待复核</td><td>2026-09-28</td><td>模拟商品甲</td><td>120.00</td><td>0.00</td><td>120.00</td><td>1</td></tr><tr><td>模拟数据_待复核</td><td>2026-09-29</td><td>模拟商品乙</td><td>200.00</td><td>20.00</td><td>180.00</td><td>2</td></tr><tr><td>模拟数据_待复核</td><td>2026-09-29</td><td>模拟商品甲</td><td>150.00</td><td>30.00</td><td>120.00</td><td>2</td></tr></table>
+<p>accepted_events.csv 可追溯有效行，exceptions.csv 与 duplicates.csv 可追溯隔离和跳过行。source 使用文件名及原文件物理起始行号；audit.json 保留输入 SHA-256。</p></html>
