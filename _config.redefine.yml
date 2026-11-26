@@ -294,6 +294,10 @@ links:
         link: https://ly1tnt.github.io/
         description: lyl
         avatar: /friends/assets/lyl.png
+      - name: lemon
+        link: https://l3monwu.com/
+        description: Ruichen Wu 的个人空间
+        avatar: /friends/assets/lemon.png
 
 developer:
   enable: false
